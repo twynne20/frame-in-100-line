@@ -6,12 +6,12 @@ const frameMetadata = getFrameMetadata({
   buttons: [
     {
       action: 'link',
-      label: 'Link to Google',
-      target: 'https://www.google.com',
+      label: 'Mint',
+      target: 'https://mint.fun/base/0x09e2d2037F8b88Dc787308C5184071491Afa5875?ref=0x0F61d0AEBb908592aBC6F159b2a48D968a3B6C80',
     },
   ],
   image: {
-    src: `${NEXT_PUBLIC_URL}/park-3.png`,
+    src: `${NEXT_PUBLIC_URL}/DALLE2.jpg`,
     aspectRatio: '1:1',
   },
 });
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'testing test',
     description: 'LFG',
-    images: [`${NEXT_PUBLIC_URL}/park-1.png`],
+    images: [`${NEXT_PUBLIC_URL}/DALLE2.jpg`],
   },
   other: {
     ...frameMetadata,
